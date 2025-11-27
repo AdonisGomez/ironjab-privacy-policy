@@ -394,10 +394,11 @@
                 <li>Tipo de dispositivo y sistema operativo</li>
                 <li>Versión de la aplicación</li>
                 <li>Datos de uso anónimos para mejorar la app</li>
+                <li>Información de conectividad (para verificar conexión a internet)</li>
             </ul>
             
             <div class="info-box">
-                <p>ℹ️ <strong>Nota:</strong> No recopilamos datos de ubicación, contactos, ni accedemos a otras aplicaciones de tu dispositivo.</p>
+                <p>ℹ️ <strong>Nota:</strong> No recopilamos datos de ubicación GPS, contactos, ni accedemos a otras aplicaciones de tu dispositivo. Las notificaciones se procesan localmente en tu dispositivo.</p>
             </div>
         </div>
         
@@ -449,7 +450,12 @@
             <h2>🤝 5. Compartir Información</h2>
             <p><strong>No vendemos tu información personal.</strong> Solo compartimos datos en estos casos:</p>
             <ul>
-                <li><strong>Proveedores de servicio:</strong> Supabase (almacenamiento) que procesan datos en nuestro nombre</li>
+                <li><strong>Proveedores de servicio:</strong> 
+                    <ul style="margin-top: 8px; padding-left: 20px;">
+                        <li><strong>Supabase</strong> - Almacenamiento de datos, autenticación y sincronización en la nube</li>
+                        <li><strong>Sistema de notificaciones locales</strong> - Para recordatorios de entrenamiento y agua (solo en tu dispositivo)</li>
+                    </ul>
+                </li>
                 <li><strong>Requisitos legales:</strong> Si la ley lo requiere o para proteger derechos</li>
                 <li><strong>Con tu consentimiento:</strong> Si decides compartir rutinas públicamente</li>
             </ul>
